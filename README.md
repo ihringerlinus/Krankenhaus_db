@@ -1,5 +1,4 @@
 # Krankenhaus_db
-Krankenhaus DB – Technical README
 Voraussetzungen:
 
 Software:
@@ -28,7 +27,6 @@ Das Projekt besteht aus mehreren Jupyter Notebooks mit klarer Trennung der Veran
         Wichtig:
         Muss immer zuerst ausgeführt werden
         Enthält faker-basierte Seed-Daten
-        Referenzdatum für Events: 12.12.2025
 
 2️: Use Case – Personalabfragen
     Zweck:
@@ -43,7 +41,6 @@ Zentrale Paramenter sind immer am Anfang des Notebooks hard gecoded können aber
 z.B. für das Personalabfragen jupiter note book:
 ARZT_ID = 1
 PFLEGEKRAFT_ID = 1
-KRANKENHAUS_ID = 1
 TODAY = '2025-12-12'
 
 Alle Abfragen passen sich automatisch an diese Werte an.
